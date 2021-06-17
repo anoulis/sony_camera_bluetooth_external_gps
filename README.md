@@ -6,7 +6,9 @@ By enabling the Location Information Linkage option, the apk shares via bluetoot
 
 By reverse engineering the apk, it is possible to use an external device (raspberry, laptop, esp, etc) to send location information.
 
-The above scripts show how to create the right location package and send it to camera.
+The above scripts show how to create the right location package and send it to camera. 
+
+NOTE: On first connection with camera, you should pair the external device through camera's menu.
 
 More information on the Location BLE packet can be found on this repo: https://github.com/whc2001/ILCE7M3ExternalGps/blob/main/PROTOCOL_EN.md
 
