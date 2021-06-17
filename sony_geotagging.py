@@ -19,8 +19,9 @@ import pygatt
 import logging
 from timezonefinder import TimezoneFinder
 import pytz
-     
-DEVICE = "48:EB:62:E3:71:12"
+
+# Set your camera mac address     
+DEVICE = "CAMERA MAC ADDRESS"
 blueTryConnectTimes = 10
 
 # logging.basicConfig()
